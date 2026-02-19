@@ -1,0 +1,620 @@
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+build/
+target/
+
+# Dependencies
+lib/
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Package manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.settings/
+.project
+.classpath
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS generated files
+ehthumbs.db
+Icon?
+Network Trash Folder
+Temporary Items
+.trash
+.Trashes
+lost+found
+
+# Build outputs
+dist/
+out/
+build/
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Documentation
+docs/_build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
+
+# Lock files
+*.lock
+package-lock.json
+yarn.lock
+
+# Testing
+*.log
+test-results/
+.scoverage/
+
+# Configuration
+config/
+!config/**
+!.gitkeep
+
+# Secrets
+secrets/
+.secret
+
+# Backup
+*.bak
+*.backup
+
+# Snapshots
+*.snapshot
+
+# Reports
+*.report
+reports/
+
+# Local configuration
+local.properties
+gradle.properties
+
+# IntelliJ IDEA
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+bin/
+.metadata
+*.launch
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+build/
+dist/
+
+# Code coverage
+jacoco.exec
+*.exec
+
+# Hibernate
+*.hbm.xml
+
+# Spring
+*.spring
+spring.log
+
+# Web
+*.min.js
+*.min.css
+public/dist/
+assets/css/
+assets/js/
+
+# Mobile
+*.ipa
+*.apk
+*.aab
+platforms/
+plugins/
+
+# Docker
+.dockerenv
+Dockerfile*
+
+# Kubernetes
+*.k8s.yaml
+*.kubernetes.yaml
+
+# Cloud
+*.aws
+*.gcp
+*.azure
+
+# Security
+*.pem
+*.key
+*.crt
+*.cert
+
+# Performance
+*.perf
+*.profile
+
+# Memory dumps
+*.dump
+*.heap
+
+# Traces
+*.trace
+*.trc
+
+# Debug
+*.debug
+*.dbg
+
+# Symbols
+*.pdb
+*.sym
+
+# Archives
+*.tar.*
+*.gz.*
+*.bz2.*
+*.xz.*
+*.zip.*
+*.7z.*
+*.rar.*
+*.jar.*
+*.war.*
+*.ear.*
+
+# Temporary internet files
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin
+$RECYCLE.BIN/
+desktop.ini
+
+# Windows
+*.lnk
+*.tmp
+~$*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.com.apple.FinderInfo
+.apdisk
+
+# Linux
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.lock
+*.swm
+*~
+
+# Android
+*.apk
+*.aar
+*.ap_
+build/
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+
+# iOS
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM/
+build/
+*.mobileprovision
+*.entitlements
+Pods/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+ios/Pods/
+ios/.symlinks/
+android/.gradle/
+android/app/build/
+android/local.properties
+pubspec.lock
+
+# React Native
+node_modules/
+ios/Pods/
+ios/build/
+android/build/
+android/app/build/
+react-native/
+*.jks
+*.keystore
+
+# Vue
+dist/
+.node-version
+.nuxt/
+.vuepress/dist
+output/
+.temp/
+
+# Angular
+dist/
+.angular/
+.angular-cli.json.backup
+.angular-config.json
+
+# Svelte
+.svelte-kit/
+.output/
+.vercel/output/
+
+# Gatsby
+public/
+.cache/
+.gatsby/
+node_modules/
+
+# Next.js
+.next/
+out/
+.output/
+.export-cache
+
+# Nuxt
+.output/
+.nuxt/
+.dist/
+.build/
+.node-version
+
+# Remix
+public/build/
+.node-version
+
+# Vite
+dist/
+.node-version
+
+# Webpack
+dist/
+build/
+webpack-stats.json
+
+# Babel
+.cache/
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+*.d.ts.map
+
+# CoffeeScript
+*.coffee.md
+
+# Dart
+.dart_tool/
+.dart
+.packages
+build/
+.pubspec.lock
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+vendor/
+
+# Rust
+target/
+Cargo.lock
+
+# C#
+*.sln
+*.csproj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.pidb
+*.suo
+*.pdb
+*.userprefs
+*.svclog
+*.sdf
+*.opendb
+*.opensdf
+*.userosscache
+*.scc
+*.vcxproj.filters
+[ip].*.targets
+[ip].*.props
+*.VC.db
+*.VC.VC.opendb
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+build/
+bld/
+[Bb]uild[Ll]og.*
+*.dir
+*.rsp
+*.tlog
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.code-analysis
+.localhistory/
+.autodeps
+.vs/
+*.VC.VC.opendb
+*.VC.db
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.la
+*.lo
+*.dylib
+*.plist
+*.idb
+*.pdb
+*.gch
+*.gcda
+*.gcno
+*.gcov
+*.stackdump
+*.core
+*.stackdump.*
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.sln.docstates
+*.userosscache
+*.scc
+*.vcxproj.filters
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db
+*.VC.VC.opend......
