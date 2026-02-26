@@ -1,0 +1,1226 @@
+26-Feb-2026 18:09:55.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:09:55.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:09:55.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:09:55.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:09:55.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:09:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:09:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:09:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:09:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:09:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:09:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:09:55.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:09:55.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:09:55.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:09:55.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:09:55.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=45983
+26-Feb-2026 18:09:55.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:09:55.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:09:55.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:09:55.626 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:09:56.323 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:09:56.340 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1639] milliseconds
+26-Feb-2026 18:09:56.420 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:09:56.420 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:09:56.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/ROOT.xml]
+26-Feb-2026 18:09:57.807 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:09:57.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/ROOT.xml] has finished in [1 452] ms
+26-Feb-2026 18:09:57.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:09:57.902 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1560] milliseconds
+26-Feb-2026 18:16:28.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:16:28.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:16:28.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:16:28.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:16:28.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:16:28.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:16:28.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:16:28.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:16:28.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:16:28.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:16:28.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:16:28.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=46163
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:16:28.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:16:28.303 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:16:28.429 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+26-Feb-2026 18:16:28.477 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:16:29.187 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:16:29.208 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1088)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:707)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:730)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:296)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:265)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:220)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1633)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1646)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:83)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1086)
+		... 11 more
+26-Feb-2026 18:16:29.211 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1301] milliseconds
+26-Feb-2026 18:16:29.290 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:16:29.290 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:16:29.294 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:16:29.302 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [825] ms
+26-Feb-2026 18:16:29.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:16:30.687 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:16:30.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 425] ms
+26-Feb-2026 18:16:30.739 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1524] milliseconds
+26-Feb-2026 18:16:30.741 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:530)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:846)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:794)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:339)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+26-Feb-2026 18:16:30.742 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:16:30.742 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:16:30.751 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:16:30.752 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:16:59.398 INFO [http-nio-8080-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x03nH0xbf0xf8;0xbd0xb380xdd0x810xbe0x9f0xef0xdf0xb7<};l0xfbIF0x100x080x810xb60xf70x9f0xc0F0xa6y ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 18:16:59.434 INFO [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x8a0x010x000x020x860x030x03*Pv0x040xc20x9bYe0xbdy/00xab0x11*0xd30xae0x870x920xc90x8fa0xc10xe7}I0xfda0x8a0xc60xe6[ ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 18:17:36.463 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:17:36.466 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:17:36.471 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:17:36.479 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:18:18.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:18:18.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:18:18.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:18:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:18:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:18:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:18:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:18:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:18:18.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:18:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:18:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:18:18.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:18:18.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:18:18.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:18:18.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:18:18.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:18:18.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=39177
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:18:18.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:18:18.108 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:18:18.637 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:18:18.676 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [956] milliseconds
+26-Feb-2026 18:18:18.781 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:18:18.782 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:18:18.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:18:20.103 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:18:20.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 358] ms
+26-Feb-2026 18:18:20.170 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:18:20.180 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1501] milliseconds
+26-Feb-2026 18:19:12.756 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:12.764 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:12.765 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.066 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.067 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.068 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.069 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.070 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.071 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.072 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.073 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.073 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.074 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.136 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.142 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.143 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.146 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.149 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.150 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+26-Feb-2026 18:19:21.198 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.199 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.200 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.203 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.203 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.205 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.207 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.207 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.210 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:21.212 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.767 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.770 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.772 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.773 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.774 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.777 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.779 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.779 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.783 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:19:24.783 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET / HTTP/1.1] received
+26-Feb-2026 18:20:50.014 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:20:50.015 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:20:50.027 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:20:50.040 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:23:19.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:23:19.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:23:19.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:23:19.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:23:19.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:23:19.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:23:19.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:23:19.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:23:19.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:23:19.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:23:19.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:23:19.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:23:19.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:23:19.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=40019
+26-Feb-2026 18:23:19.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:23:19.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:23:19.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:23:19.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:23:20.305 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:23:20.327 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1111] milliseconds
+26-Feb-2026 18:23:20.380 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:23:20.381 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:23:20.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:23:21.413 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:23:21.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 054] ms
+26-Feb-2026 18:23:21.459 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:23:21.467 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1138] milliseconds
+26-Feb-2026 18:34:49.390 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:34:49.391 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:34:49.401 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:34:49.404 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:34:55.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:34:55.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:34:55.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:34:55.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:34:55.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:34:55.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:34:55.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:34:55.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:34:55.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:34:55.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:34:55.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:34:55.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:34:55.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:34:55.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:34:55.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:34:55.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:34:55.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:34:55.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:34:55.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:34:55.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:34:55.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:34:55.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=41915
+26-Feb-2026 18:34:55.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:34:55.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:34:55.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:34:55.331 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:34:55.906 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:34:55.928 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1090] milliseconds
+26-Feb-2026 18:34:55.987 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:34:55.988 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:34:56.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:34:57.247 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:34:57.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 307] ms
+26-Feb-2026 18:34:57.314 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:34:57.324 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1394] milliseconds
+26-Feb-2026 18:38:23.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:38:23.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:38:23.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:38:23.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:38:23.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:38:23.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:38:23.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:38:23.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:38:23.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:38:23.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:38:23.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:38:23.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:38:23.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:38:23.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:38:23.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:38:23.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:38:23.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:38:23.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:38:23.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:38:23.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:38:23.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:38:23.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=34603
+26-Feb-2026 18:38:23.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:38:23.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:38:23.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:38:23.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:38:24.453 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:38:24.475 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1088)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:707)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:730)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:296)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:265)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:220)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1633)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1646)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:83)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1086)
+		... 11 more
+26-Feb-2026 18:38:24.478 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1406] milliseconds
+26-Feb-2026 18:38:24.545 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:38:24.546 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:38:24.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:38:25.855 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:38:25.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 362] ms
+26-Feb-2026 18:38:25.932 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1451] milliseconds
+26-Feb-2026 18:38:25.936 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:530)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:846)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:794)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:339)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+26-Feb-2026 18:38:25.937 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:38:25.937 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:38:25.951 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:38:25.952 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:38:27.333 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SpringMVC]
+26-Feb-2026 18:38:27.346 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:38:27.827 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:38:27.831 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [485] ms
+26-Feb-2026 18:40:40.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:40:40.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:40:40.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:40:40.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:40:40.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:40:40.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:40:40.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:40:40.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:40:40.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:40:40.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:40:40.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:40:40.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:40:40.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:40:40.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:40:40.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:40:40.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=44119
+26-Feb-2026 18:40:40.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:40:40.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:40:40.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:40:40.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:40:41.064 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:40:41.083 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1088)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:707)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:730)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:296)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:265)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:220)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1633)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1646)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:83)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1086)
+		... 11 more
+26-Feb-2026 18:40:41.085 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1057] milliseconds
+26-Feb-2026 18:40:41.147 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:40:41.147 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:40:41.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:40:42.347 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:40:42.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 240] ms
+26-Feb-2026 18:40:42.413 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1323] milliseconds
+26-Feb-2026 18:40:42.416 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:530)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:846)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:794)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:339)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+26-Feb-2026 18:40:42.418 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:40:42.418 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:40:42.432 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:40:42.433 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:40:47.843 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SpringMVC]
+26-Feb-2026 18:40:47.857 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:40:48.670 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:40:48.674 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [817] ms
+26-Feb-2026 18:41:48.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:41:48.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:41:48.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:41:48.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:41:48.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:41:48.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:41:48.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:41:48.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:41:48.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:41:48.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:41:48.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:41:48.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:41:48.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:41:48.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:41:48.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:41:48.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:41:48.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:41:48.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:41:48.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:41:48.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:41:48.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:41:48.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=46569
+26-Feb-2026 18:41:48.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:41:48.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:41:48.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:41:48.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:41:49.546 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:41:49.565 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [973] milliseconds
+26-Feb-2026 18:41:49.621 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:41:49.621 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:41:49.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:41:50.721 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:41:50.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 130] ms
+26-Feb-2026 18:41:50.768 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:41:50.777 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1209] milliseconds
+26-Feb-2026 18:41:50.779 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:530)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:846)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:794)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:339)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+26-Feb-2026 18:41:50.781 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:41:50.784 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:41:50.794 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:41:50.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:41:58.681 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SpringMVC]
+26-Feb-2026 18:41:58.685 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:41:59.073 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:41:59.077 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [392] ms
+26-Feb-2026 18:42:49.987 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:42:49.989 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:42:49.994 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:42:50.004 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Feb-2026 18:43:07.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:43:07.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:43:07.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:43:07.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:43:07.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:43:07.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:43:07.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:43:07.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:43:07.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:43:07.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:43:07.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:43:07.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:43:07.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:43:07.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:43:07.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:43:07.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=38275
+26-Feb-2026 18:43:07.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:43:07.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:43:07.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:43:07.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:43:08.145 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:43:08.167 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1067] milliseconds
+26-Feb-2026 18:43:08.263 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:43:08.264 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:43:08.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:43:09.506 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:43:09.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 270] ms
+26-Feb-2026 18:43:09.562 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:43:09.574 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1404] milliseconds
+26-Feb-2026 18:43:13.298 INFO [http-nio-8081-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x030x97r0xad0x190xdc0xaa0xb70xc2`0xe00xe70x9b0xfe0x99f0xc0C0xdc0xcd0xeb0xd70xef0xe40x930xd3O=ypy0x0e0x9a ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 18:43:13.332 INFO [http-nio-8081-exec-6] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x030xc80xa40xc90xfe0x0f0xc4r30x9e0xb4C0xf00x8c+3V0xdds0x120xe5|0xea%0xf60xa80x840x15h0xd00x1f)0xcb ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 18:43:13.333 INFO [http-nio-8081-exec-4] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x03e0xba0xa6a0xfe0xf50xba0x090x9e0xb6V0xd90xe6{0xaca0x0a&U0xc9E0x81Sz280xc0u0xb80x048] ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 18:43:39.291 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:43:39.293 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:43:39.305 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:43:39.316 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:43:51.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:43:51.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:43:51.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:43:51.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:43:51.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:43:51.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:43:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:43:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:43:51.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:43:51.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:43:51.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:43:51.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:43:51.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:43:51.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:43:51.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:43:51.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:43:51.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:43:51.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:43:51.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:43:51.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:43:51.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:43:51.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=33867
+26-Feb-2026 18:43:51.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:43:51.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:43:51.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:43:51.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:43:52.132 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:43:52.157 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1133] milliseconds
+26-Feb-2026 18:43:52.219 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:43:52.220 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:43:52.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:43:53.511 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:43:53.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 332] ms
+26-Feb-2026 18:43:53.573 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:43:53.583 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1423] milliseconds
+26-Feb-2026 18:44:08.837 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:08.840 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:44:08.853 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:08.862 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:14.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:44:14.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:44:14.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:44:14.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:44:14.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:44:14.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:44:14.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:44:14.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:44:14.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:44:14.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:44:14.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:44:14.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:44:14.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:44:14.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:44:14.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:44:14.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=37447
+26-Feb-2026 18:44:14.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:44:14.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:44:14.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:44:14.258 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:44:14.905 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:14.940 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1164] milliseconds
+26-Feb-2026 18:44:15.027 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:44:15.028 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:44:15.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:44:16.212 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:44:16.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 217] ms
+26-Feb-2026 18:44:16.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:16.279 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1336] milliseconds
+26-Feb-2026 18:44:26.273 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:26.275 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:44:26.285 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:26.288 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+26-Feb-2026 18:44:49.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:44:49.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:44:49.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:44:49.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:44:49.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:44:49.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:44:49.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:44:49.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:44:49.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:44:49.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:44:49.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:44:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:44:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:44:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:44:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:44:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:44:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=43499
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:44:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:44:49.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:44:49.964 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:44:49.984 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1143] milliseconds
+26-Feb-2026 18:44:50.047 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:44:50.048 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:44:50.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:44:51.115 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:44:51.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 107] ms
+26-Feb-2026 18:44:51.175 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:44:51.188 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1201] milliseconds
+26-Feb-2026 18:45:39.099 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:45:39.101 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:45:39.116 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:45:39.124 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:46:01.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:46:01.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:46:01.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:46:01.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:46:01.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:46:01.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:46:01.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:46:01.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:46:01.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:46:01.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:46:01.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:46:01.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:46:01.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:46:01.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:46:01.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:46:01.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=32959
+26-Feb-2026 18:46:01.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:46:01.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:46:01.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:46:01.137 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:46:01.841 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:46:01.876 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1259] milliseconds
+26-Feb-2026 18:46:01.946 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:46:01.947 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:46:01.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:46:03.222 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:46:03.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 315] ms
+26-Feb-2026 18:46:03.283 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:46:03.291 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1412] milliseconds
+26-Feb-2026 18:51:22.457 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:51:22.459 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:51:22.475 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:51:22.484 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:52:55.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 18:52:55.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 18:52:55.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 18:52:55.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 18:52:55.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 18:52:55.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 18:52:55.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 18:52:55.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 18:52:55.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 18:52:55.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:52:55.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:52:55.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 18:52:55.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 18:52:55.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 18:52:55.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 18:52:55.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 18:52:55.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 18:52:55.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 18:52:55.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 18:52:55.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 18:52:55.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 18:52:55.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=42797
+26-Feb-2026 18:52:55.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 18:52:55.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 18:52:55.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 18:52:55.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 18:52:56.489 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:52:56.510 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1037] milliseconds
+26-Feb-2026 18:52:56.573 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 18:52:56.574 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 18:52:56.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 18:52:57.780 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 18:52:57.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 244] ms
+26-Feb-2026 18:52:57.838 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:52:57.846 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1334] milliseconds
+26-Feb-2026 18:55:25.020 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:55:25.022 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 18:55:25.032 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 18:55:25.036 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:03:22.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 19:03:22.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 19:03:22.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 19:03:22.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:03:22.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:03:22.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:03:22.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:03:22.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:03:22.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:03:22.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:03:22.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 19:03:22.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:03:22.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:03:22.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:03:22.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:03:22.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:03:22.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=40447
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:03:22.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:03:22.280 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:03:22.815 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:03:22.842 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [990] milliseconds
+26-Feb-2026 19:03:22.896 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:03:22.897 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 19:03:22.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:03:24.240 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:03:24.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 379] ms
+26-Feb-2026 19:03:24.296 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:03:24.313 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1468] milliseconds
+26-Feb-2026 19:05:11.853 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:05:11.854 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 19:05:11.863 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:05:11.866 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:06:11.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.18
+26-Feb-2026 19:06:11.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 10:22:57 UTC
+26-Feb-2026 19:06:11.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.18.0
+26-Feb-2026 19:06:11.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:06:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:06:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:06:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:06:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:06:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:06:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:06:11.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-11.0.18
+26-Feb-2026 19:06:11.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=41003
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:06:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:06:11.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:06:12.212 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:06:12.273 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1126] milliseconds
+26-Feb-2026 19:06:12.340 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:06:12.341 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.18]
+26-Feb-2026 19:06:12.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:06:13.476 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:06:13.527 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 171] ms
+26-Feb-2026 19:06:13.531 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:06:13.540 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1265] milliseconds
+26-Feb-2026 19:08:11.166 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:08:11.167 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 19:08:11.180 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:08:11.190 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:10:41.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.52
+26-Feb-2026 19:10:41.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 19:29:07 UTC
+26-Feb-2026 19:10:41.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.52.0
+26-Feb-2026 19:10:41.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:10:41.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:10:41.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:10:41.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:10:41.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:10:41.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:10:41.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:10:41.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:10:41.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:10:41.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:10:41.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:10:41.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:10:41.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:10:41.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:10:41.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:10:41.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:10:41.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:10:41.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:10:41.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=41785
+26-Feb-2026 19:10:41.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:10:41.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:10:41.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:10:41.948 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:10:42.481 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:10:42.519 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [984] milliseconds
+26-Feb-2026 19:10:42.615 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:10:42.616 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+26-Feb-2026 19:10:42.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:10:42.892 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.1]. Default version will be used.
+26-Feb-2026 19:10:43.793 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:10:43.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 214] ms
+26-Feb-2026 19:10:43.852 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:10:43.862 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1342] milliseconds
+26-Feb-2026 19:11:38.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.52
+26-Feb-2026 19:11:38.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 19:29:07 UTC
+26-Feb-2026 19:11:38.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.52.0
+26-Feb-2026 19:11:38.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:11:38.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:11:38.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:11:38.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:11:38.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:11:38.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:11:38.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:11:38.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:11:38.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:11:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:11:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:11:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:11:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:11:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:34253,suspend=y,server=n
+26-Feb-2026 19:11:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/plugins/java/lib/rt/debugger-agent.jar=file:///tmp/capture15712686298217824444.props
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+26-Feb-2026 19:11:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+26-Feb-2026 19:11:38.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+26-Feb-2026 19:11:38.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.async.stack.trace.for.all.threads=true
+26-Feb-2026 19:11:38.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:11:38.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:11:38.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:11:38.423 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:11:38.937 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:11:38.959 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8081"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1431)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1444)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+26-Feb-2026 19:11:38.962 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [930] milliseconds
+26-Feb-2026 19:11:39.052 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:11:39.052 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+26-Feb-2026 19:11:39.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:11:39.385 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.1]. Default version will be used.
+26-Feb-2026 19:11:40.439 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:11:40.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 431] ms
+26-Feb-2026 19:11:40.511 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1547] milliseconds
+26-Feb-2026 19:11:40.518 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+26-Feb-2026 19:11:40.519 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:11:40.520 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 19:11:40.536 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:11:40.537 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+26-Feb-2026 19:11:43.857 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SpringMVC]
+26-Feb-2026 19:11:43.870 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:11:44.503 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:11:44.508 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [637] ms
+26-Feb-2026 19:13:03.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.52
+26-Feb-2026 19:13:03.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 19:29:07 UTC
+26-Feb-2026 19:13:03.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.52.0
+26-Feb-2026 19:13:03.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:13:03.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:13:03.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:13:03.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:13:03.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:13:03.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:13:03.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:13:03.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:13:03.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:13:03.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:13:03.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:13:03.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:13:03.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:13:03.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=36495
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:13:03.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:13:03.771 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:13:04.531 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:13:04.561 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1204] milliseconds
+26-Feb-2026 19:13:04.646 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:13:04.646 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+26-Feb-2026 19:13:04.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:13:04.935 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.1]. Default version will be used.
+26-Feb-2026 19:13:06.056 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:13:06.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 446] ms
+26-Feb-2026 19:13:06.118 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:13:06.128 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1565] milliseconds
+26-Feb-2026 19:13:54.626 INFO [http-nio-8082-exec-4] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x03x0x9bpf0x8a0xfa/0x9e0x920x04*0xbb0xa50x040xe60x9a0xa8.0x0c0xae0x050x830x810x890xdb90xe2f0xfbF0x1d0xdb ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:402)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 19:13:54.637 INFO [http-nio-8082-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x030x890x0a|0xd3g0xd6\0x050x85M0xbb0x0f0xa90x0f0x070x930xbd0xdfvy`a0x080xc00xe40xde0xb6k+T0x82Z ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:402)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 19:13:54.651 INFO [http-nio-8082-exec-6] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x030xaf0x7f0x0e0x020xa40xb90x8fn0x970x8bq0xb7T0x150xf5_0x9d0x1a0xe4`0xa40x0000x03~0x100xbc0x120xbd0xef0x820x9f ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:402)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 19:14:00.958 INFO [http-nio-8082-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x07[0x010x000x07W0x030x03 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:402)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+26-Feb-2026 19:14:08.873 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:14:08.874 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 19:14:08.884 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:14:08.886 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:14:59.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.52
+26-Feb-2026 19:14:59.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 19:29:07 UTC
+26-Feb-2026 19:14:59.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.52.0
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:14:59.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:14:59.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:14:59.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:14:59.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:14:59.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:14:59.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:14:59.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:14:59.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:14:59.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:14:59.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:14:59.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:14:59.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:14:59.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=40263
+26-Feb-2026 19:14:59.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:14:59.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:14:59.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:14:59.924 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:15:00.515 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:15:00.550 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [970] milliseconds
+26-Feb-2026 19:15:00.632 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:15:00.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+26-Feb-2026 19:15:00.653 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:15:00.883 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.1]. Default version will be used.
+26-Feb-2026 19:15:01.849 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:15:01.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 252] ms
+26-Feb-2026 19:15:01.913 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:15:01.923 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1370] milliseconds
+26-Feb-2026 19:19:47.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.52
+26-Feb-2026 19:19:47.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jan 23 2026 19:29:07 UTC
+26-Feb-2026 19:19:47.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.52.0
+26-Feb-2026 19:19:47.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2026 19:19:47.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.18.13-200.fc43.x86_64
+26-Feb-2026 19:19:47.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+26-Feb-2026 19:19:47.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/gfkr/.jdks/temurin-23.0.2
+26-Feb-2026 19:19:47.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.2+7
+26-Feb-2026 19:19:47.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Eclipse Adoptium
+26-Feb-2026 19:19:47.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:19:47.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:19:47.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/apache-tomcat-10.1.52
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/temp
+26-Feb-2026 19:19:47.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/logging.properties
+26-Feb-2026 19:19:47.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2026 19:19:47.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/app/lib/idea_rt.jar=46051
+26-Feb-2026 19:19:47.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-Feb-2026 19:19:47.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-Feb-2026 19:19:47.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-Feb-2026 19:19:47.231 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Feb-2026 19:19:47.957 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:19:47.971 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1431)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1444)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+26-Feb-2026 19:19:47.973 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1197] milliseconds
+26-Feb-2026 19:19:48.037 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2026 19:19:48.039 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+26-Feb-2026 19:19:48.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:19:48.356 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.1]. Default version will be used.
+26-Feb-2026 19:19:49.255 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:19:49.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [1 250] ms
+26-Feb-2026 19:19:49.316 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1342] milliseconds
+26-Feb-2026 19:19:49.319 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+26-Feb-2026 19:19:49.320 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:19:49.320 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 19:19:49.332 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:19:49.333 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:19:51.937 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SpringMVC]
+26-Feb-2026 19:19:51.952 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml]
+26-Feb-2026 19:19:52.440 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2026 19:19:52.444 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/gfkr/Java (lessons)/GitHub/java-lessons/SpringMVC/conf/Catalina/localhost/SpringMVC.xml] has finished in [491] ms
+26-Feb-2026 19:21:27.007 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:21:27.009 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Feb-2026 19:21:27.013 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+26-Feb-2026 19:21:27.018 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
